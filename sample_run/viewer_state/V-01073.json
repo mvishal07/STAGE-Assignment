@@ -1,0 +1,114 @@
+{
+ "viewer_id": "V-01073",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:E0018021",
+   "age_s": 10804
+  },
+  "sub_status": {
+   "value": "unknown",
+   "source": "none",
+   "ref": null,
+   "age_s": null
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": null,
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "none(no_profile_row)",
+   "ref": null,
+   "age_s": null
+  },
+  "signup_ts": {
+   "value": 1789011632.0,
+   "source": "signup_event",
+   "ref": "E0018020",
+   "age_s": 12584
+  },
+  "n_opens_7d": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-01073-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-10T04:10:17Z",
+   "kind": "decision",
+   "id": "D-012079",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T07:10:16Z",
+   "kind": "decision",
+   "id": "D-012363",
+   "action": "NO_ACTION",
+   "goal": "G01",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-13T10:10:16Z",
+   "kind": "outcome",
+   "plan": "P-V-01073-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-012079",
+   "decision_id": "D-012079",
+   "viewer_id": "V-01073",
+   "plan_id": "P-V-01073-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0555",
+    "T0691",
+    "T0745",
+    "T0652",
+    "T0102"
+   ],
+   "ts": 1789013417.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-01073-1"
+ ],
+ "learned": [
+  "G01 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

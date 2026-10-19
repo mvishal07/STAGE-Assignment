@@ -1,0 +1,22 @@
+{
+ "viewer_id": "V-04346",
+ "facts": {},
+ "active_plan": null,
+ "plans": [],
+ "history": [
+  {
+   "t": "2026-09-11T13:04:45Z",
+   "kind": "decision",
+   "id": "D-018511",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "tool_failure:event_store_unavailable (fail closed)"
+  }
+ ],
+ "actions": [],
+ "outcomes": [],
+ "learned": [],
+ "suppressed_goals": {},
+ "n_plans": 0,
+ "decision_ids": "see decisions.jsonl"
+}

@@ -1,0 +1,114 @@
+{
+ "viewer_id": "V-02214",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:E0036430",
+   "age_s": 5
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 305215
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 305215
+  },
+  "signup_ts": {
+   "value": 1784419200.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 4632415
+  },
+  "n_opens_7d": {
+   "value": 12,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [],
+ "history": [
+  {
+   "t": "2026-09-08T13:17:17Z",
+   "kind": "decision",
+   "id": "D-002003",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-08T16:06:03Z",
+   "kind": "decision",
+   "id": "D-003373",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-09T15:26:19Z",
+   "kind": "decision",
+   "id": "D-008703",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-10T07:25:52Z",
+   "kind": "decision",
+   "id": "D-012399",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-10T11:55:48Z",
+   "kind": "decision",
+   "id": "D-013164",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-10T14:46:56Z",
+   "kind": "decision",
+   "id": "D-014124",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  }
+ ],
+ "actions": [],
+ "outcomes": [],
+ "learned": [],
+ "suppressed_goals": {},
+ "n_plans": 0,
+ "decision_ids": "see decisions.jsonl"
+}

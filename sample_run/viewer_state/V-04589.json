@@ -1,0 +1,114 @@
+{
+ "viewer_id": "V-04589",
+ "facts": {
+  "dialect": {
+   "value": "d4",
+   "source": "app_setting",
+   "ref": "event:S0002600",
+   "age_s": 10087
+  },
+  "sub_status": {
+   "value": "unknown",
+   "source": "none",
+   "ref": null,
+   "age_s": null
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": null,
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "none(no_profile_row)",
+   "ref": null,
+   "age_s": null
+  },
+  "signup_ts": {
+   "value": 1789027734.0,
+   "source": "signup_event",
+   "ref": "E0074600",
+   "age_s": 11674
+  },
+  "n_opens_7d": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-04589-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-10T08:23:29Z",
+   "kind": "decision",
+   "id": "D-012526",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T08:35:40Z",
+   "kind": "outcome",
+   "plan": "P-V-04589-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  },
+  {
+   "t": "2026-09-10T11:23:28Z",
+   "kind": "decision",
+   "id": "D-013010",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "followup_without_active_plan"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-012526",
+   "decision_id": "D-012526",
+   "viewer_id": "V-04589",
+   "plan_id": "P-V-04589-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0796",
+    "T0427",
+    "T1284",
+    "T1019",
+    "T0715"
+   ],
+   "ts": 1789028609.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-04589-1"
+ ],
+ "learned": [
+  "G01 succeeded: success_signal_observed"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

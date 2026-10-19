@@ -1,0 +1,36 @@
+{
+ "decisions": 22793,
+ "p50_ms": 174,
+ "p95_ms": 11829,
+ "p99_ms": 21594,
+ "max_ms": 29854,
+ "within_60s_pct": 100.0,
+ "over_60s": 0,
+ "over_5min_failures": 0,
+ "max_queue_wait_ms": 29679,
+ "by_trigger_group": {
+  "normal": {
+   "n": 22053,
+   "p95_ms": 12039,
+   "max_ms": 29854
+  },
+  "traffic_x3": {
+   "n": 90,
+   "p95_ms": 1575,
+   "max_ms": 1575
+  },
+  "offline_burst": {
+   "n": 150,
+   "p95_ms": 0,
+   "max_ms": 0
+  },
+  "one_minute_burst": {
+   "n": 500,
+   "p95_ms": 11384,
+   "max_ms": 13094
+  }
+ },
+ "max_model_calls_used": 1,
+ "max_tool_calls_used": 8,
+ "note": "virtual time: service time = tool_calls*tool_ms + model_calls*model_ms; queueing across a worker pool"
+}

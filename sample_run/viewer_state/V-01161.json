@@ -1,0 +1,214 @@
+{
+ "viewer_id": "V-01161",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0019312",
+   "age_s": 8
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 399288
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 399288
+  },
+  "signup_ts": {
+   "value": 1788722622.0,
+   "source": "signup_event",
+   "ref": "E0019310",
+   "age_s": 423066
+  },
+  "n_opens_7d": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-01161-1",
+  "P-V-01161-2"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T11:33:35Z",
+   "kind": "decision",
+   "id": "D-001435",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T14:33:34Z",
+   "kind": "decision",
+   "id": "D-002565",
+   "action": "WHATSAPP",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T11:55:02Z",
+   "kind": "outcome",
+   "plan": "P-V-01161-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  },
+  {
+   "t": "2026-09-11T11:55:03Z",
+   "kind": "decision",
+   "id": "D-018180",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T14:55:02Z",
+   "kind": "decision",
+   "id": "D-019234",
+   "action": "WHATSAPP",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T16:54:48Z",
+   "kind": "decision",
+   "id": "D-020617",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-14T17:55:02Z",
+   "kind": "outcome",
+   "plan": "P-V-01161-2",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-001435",
+   "decision_id": "D-001435",
+   "viewer_id": "V-01161",
+   "plan_id": "P-V-01161-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0326",
+    "T0155",
+    "T0125",
+    "T0424",
+    "T0789"
+   ],
+   "ts": 1788867215.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-002565",
+   "decision_id": "D-002565",
+   "viewer_id": "V-01161",
+   "plan_id": "P-V-01161-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0326"
+   ],
+   "ts": 1788878014.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_hi_v2"
+  },
+  {
+   "action_id": "A-018180",
+   "decision_id": "D-018180",
+   "viewer_id": "V-01161",
+   "plan_id": "P-V-01161-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0326",
+    "T0155",
+    "T0125",
+    "T0424",
+    "T0789"
+   ],
+   "ts": 1789127703.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-019234",
+   "decision_id": "D-019234",
+   "viewer_id": "V-01161",
+   "plan_id": "P-V-01161-2",
+   "action": "WHATSAPP",
+   "content": [
+    "T0326"
+   ],
+   "ts": 1789138502.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_hi_v2"
+  },
+  {
+   "action_id": "A-020617",
+   "decision_id": "D-020617",
+   "viewer_id": "V-01161",
+   "plan_id": "P-V-01161-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0326",
+    "T0155",
+    "T0125",
+    "T0424",
+    "T0789"
+   ],
+   "ts": 1789145688.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-01161-1",
+  "O-P-V-01161-2"
+ ],
+ "learned": [
+  "G01 failed: no_success_signal_before_deadline",
+  "G01 failed twice with real exposure; pause this goal 7d (abstain rather than nag)"
+ ],
+ "suppressed_goals": {
+  "G01": 1790013302.0
+ },
+ "n_plans": 2,
+ "decision_ids": "see decisions.jsonl"
+}

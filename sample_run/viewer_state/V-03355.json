@@ -1,0 +1,144 @@
+{
+ "viewer_id": "V-03355",
+ "facts": {
+  "dialect": {
+   "value": "d4",
+   "source": "app_setting",
+   "ref": "event:E0054726",
+   "age_s": 40301
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 174914
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 174914
+  },
+  "signup_ts": {
+   "value": 1780012800.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 8908514
+  },
+  "n_opens_7d": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-03355-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T15:23:43Z",
+   "kind": "decision",
+   "id": "D-002953",
+   "action": "HOME_PAGE",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T18:23:42Z",
+   "kind": "decision",
+   "id": "D-004748",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-09T02:35:00Z"
+  },
+  {
+   "t": "2026-09-09T02:35:14Z",
+   "kind": "decision",
+   "id": "D-006092",
+   "action": "WHATSAPP",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T21:23:42Z",
+   "kind": "outcome",
+   "plan": "P-V-03355-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  },
+  {
+   "t": "2026-09-12T05:58:54Z",
+   "kind": "decision",
+   "id": "D-022367",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(172033s): recorded, never acted on"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-002953",
+   "decision_id": "D-002953",
+   "viewer_id": "V-03355",
+   "plan_id": "P-V-03355-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1019",
+    "T0715",
+    "T0508",
+    "T1186",
+    "T1209"
+   ],
+   "ts": 1788881023.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-006092",
+   "decision_id": "D-006092",
+   "viewer_id": "V-03355",
+   "plan_id": "P-V-03355-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T1019"
+   ],
+   "ts": 1788921314.209995,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_kn_v1"
+  }
+ ],
+ "outcomes": [
+  "O-P-V-03355-1"
+ ],
+ "learned": [
+  "G03 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

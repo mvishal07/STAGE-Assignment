@@ -1,0 +1,204 @@
+{
+ "viewer_id": "V-02047",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:E0033697",
+   "age_s": 1
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 358157
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 358157
+  },
+  "signup_ts": {
+   "value": 1779667200.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 9437357
+  },
+  "n_opens_7d": {
+   "value": 9,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 10,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02047-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T01:59:42Z",
+   "kind": "decision",
+   "id": "D-005694",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no_eligible_goal: G01=signup_older_than_14d; G04=no_open_series; G02=status_is_free; G11=not_single_title_trial"
+  },
+  {
+   "t": "2026-09-09T04:35:26Z",
+   "kind": "decision",
+   "id": "D-006262",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T07:35:25Z",
+   "kind": "decision",
+   "id": "D-006612",
+   "action": "PUSH",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T13:39:17Z",
+   "kind": "decision",
+   "id": "D-007918",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T10:15:24Z",
+   "kind": "decision",
+   "id": "D-012785",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T10:32:45Z",
+   "kind": "outcome",
+   "plan": "P-V-02047-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  },
+  {
+   "t": "2026-09-11T05:29:17Z",
+   "kind": "decision",
+   "id": "D-017291",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no_eligible_goal: G01=signup_older_than_14d; G04=no_open_series; G02=status_is_free; G11=not_single_title_trial"
+  },
+  {
+   "t": "2026-09-11T10:58:05Z",
+   "kind": "decision",
+   "id": "D-017956",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(28804s): recorded, never acted on"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-006262",
+   "decision_id": "D-006262",
+   "viewer_id": "V-02047",
+   "plan_id": "P-V-02047-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0234",
+    "T0620",
+    "T1090",
+    "T0679",
+    "T0867"
+   ],
+   "ts": 1788928526.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-006612",
+   "decision_id": "D-006612",
+   "viewer_id": "V-02047",
+   "plan_id": "P-V-02047-1",
+   "action": "PUSH",
+   "content": [
+    "T0234"
+   ],
+   "ts": 1788939325.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-007918",
+   "decision_id": "D-007918",
+   "viewer_id": "V-02047",
+   "plan_id": "P-V-02047-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0234",
+    "T0620",
+    "T1090",
+    "T0679",
+    "T0867"
+   ],
+   "ts": 1788961157.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-012785",
+   "decision_id": "D-012785",
+   "viewer_id": "V-02047",
+   "plan_id": "P-V-02047-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0234",
+    "T0620",
+    "T1090",
+    "T0679",
+    "T0867"
+   ],
+   "ts": 1789035324.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02047-1"
+ ],
+ "learned": [
+  "G04 succeeded: success_signal_observed"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

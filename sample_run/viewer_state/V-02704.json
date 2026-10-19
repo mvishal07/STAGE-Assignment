@@ -1,0 +1,130 @@
+{
+ "viewer_id": "V-02704",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:S0000281",
+   "age_s": 96853
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "purchase_event",
+   "ref": "event:S0000281",
+   "age_s": 261304
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "event:S0000281",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 261304
+  },
+  "signup_ts": {
+   "value": 1786406400.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 2601304
+  },
+  "n_opens_7d": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02704-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T11:17:53Z",
+   "kind": "decision",
+   "id": "D-001369",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(21607s): recorded, never acted on"
+  },
+  {
+   "t": "2026-09-08T16:04:06Z",
+   "kind": "decision",
+   "id": "D-003348",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T19:04:05Z",
+   "kind": "decision",
+   "id": "D-004936",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-10T02:35:00Z"
+  },
+  {
+   "t": "2026-09-08T23:41:11Z",
+   "kind": "outcome",
+   "plan": "P-V-02704-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  },
+  {
+   "t": "2026-09-10T02:35:04Z",
+   "kind": "decision",
+   "id": "D-011136",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "followup_without_active_plan"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-003348",
+   "decision_id": "D-003348",
+   "viewer_id": "V-02704",
+   "plan_id": "P-V-02704-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1276",
+    "T0439",
+    "T0424",
+    "T0049",
+    "T1290"
+   ],
+   "ts": 1788883446.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02704-1"
+ ],
+ "learned": [
+  "G02 succeeded: success_signal_observed"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

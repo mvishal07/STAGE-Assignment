@@ -1,0 +1,106 @@
+{
+ "viewer_id": "V-03971",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0064684",
+   "age_s": 6
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "purchase_event",
+   "ref": "event:S0000097",
+   "age_s": 287773
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "event:S0000097",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 287773
+  },
+  "signup_ts": {
+   "value": 1786998216.0,
+   "source": "signup_event",
+   "ref": "E0064647",
+   "age_s": 2035957
+  },
+  "n_opens_7d": {
+   "value": 14,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 11,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [],
+ "history": [
+  {
+   "t": "2026-09-08T05:07:28Z",
+   "kind": "decision",
+   "id": "D-000476",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-09T17:10:15Z",
+   "kind": "decision",
+   "id": "D-009696",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-10T08:55:32Z",
+   "kind": "decision",
+   "id": "D-012606",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-10T09:56:14Z",
+   "kind": "decision",
+   "id": "D-012743",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: insufficient_content_in_dialect"
+  },
+  {
+   "t": "2026-09-10T17:04:08Z",
+   "kind": "decision",
+   "id": "D-015215",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(28920s): recorded, never acted on"
+  }
+ ],
+ "actions": [],
+ "outcomes": [],
+ "learned": [],
+ "suppressed_goals": {},
+ "n_plans": 0,
+ "decision_ids": "see decisions.jsonl"
+}

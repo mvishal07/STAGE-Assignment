@@ -1,0 +1,188 @@
+{
+ "viewer_id": "V-00109",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:E0001857",
+   "age_s": 4
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 384568
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 384568
+  },
+  "signup_ts": {
+   "value": 1783468800.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 5662168
+  },
+  "n_opens_7d": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 8,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-00109-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T10:45:14Z",
+   "kind": "decision",
+   "id": "D-001242",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T11:00:30Z",
+   "kind": "decision",
+   "id": "D-001298",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: duplicate_action"
+  },
+  {
+   "t": "2026-09-08T13:45:13Z",
+   "kind": "decision",
+   "id": "D-002206",
+   "action": "PUSH",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T16:40:53Z",
+   "kind": "decision",
+   "id": "D-003761",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T12:49:28Z",
+   "kind": "decision",
+   "id": "D-018414",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-13T16:45:13Z",
+   "kind": "outcome",
+   "plan": "P-V-00109-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-001242",
+   "decision_id": "D-001242",
+   "viewer_id": "V-00109",
+   "plan_id": "P-V-00109-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0255",
+    "T0121",
+    "T0450",
+    "T0823",
+    "T0102"
+   ],
+   "ts": 1788864314.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-002206",
+   "decision_id": "D-002206",
+   "viewer_id": "V-00109",
+   "plan_id": "P-V-00109-1",
+   "action": "PUSH",
+   "content": [
+    "T0255"
+   ],
+   "ts": 1788875113.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-003761",
+   "decision_id": "D-003761",
+   "viewer_id": "V-00109",
+   "plan_id": "P-V-00109-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0255",
+    "T0121",
+    "T0450",
+    "T0823",
+    "T0102"
+   ],
+   "ts": 1788885653.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-018414",
+   "decision_id": "D-018414",
+   "viewer_id": "V-00109",
+   "plan_id": "P-V-00109-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0255",
+    "T0121",
+    "T0450",
+    "T0823",
+    "T0102"
+   ],
+   "ts": 1789130968.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-00109-1"
+ ],
+ "learned": [
+  "G04 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

@@ -1,0 +1,214 @@
+{
+ "viewer_id": "V-00281",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0004818",
+   "age_s": 2
+  },
+  "sub_status": {
+   "value": "churned",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 381535
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 381535
+  },
+  "signup_ts": {
+   "value": 1778371200.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 10756735
+  },
+  "n_opens_7d": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-00281-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T17:09:33Z",
+   "kind": "decision",
+   "id": "D-004075",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T20:09:32Z",
+   "kind": "decision",
+   "id": "D-005193",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-10T02:35:00Z"
+  },
+  {
+   "t": "2026-09-10T02:35:11Z",
+   "kind": "decision",
+   "id": "D-011331",
+   "action": "PUSH",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T14:18:04Z",
+   "kind": "decision",
+   "id": "D-013927",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T08:19:35Z",
+   "kind": "decision",
+   "id": "D-017627",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T11:58:55Z",
+   "kind": "decision",
+   "id": "D-018192",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T23:09:32Z",
+   "kind": "outcome",
+   "plan": "P-V-00281-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-004075",
+   "decision_id": "D-004075",
+   "viewer_id": "V-00281",
+   "plan_id": "P-V-00281-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0054",
+    "T0037",
+    "T0186",
+    "T0098",
+    "T0155"
+   ],
+   "ts": 1788887373.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-011331",
+   "decision_id": "D-011331",
+   "viewer_id": "V-00281",
+   "plan_id": "P-V-00281-1",
+   "action": "PUSH",
+   "content": [
+    "T0054"
+   ],
+   "ts": 1789007711.8649957,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-013927",
+   "decision_id": "D-013927",
+   "viewer_id": "V-00281",
+   "plan_id": "P-V-00281-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0054",
+    "T0037",
+    "T0186",
+    "T0098",
+    "T0155"
+   ],
+   "ts": 1789049884.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-017627",
+   "decision_id": "D-017627",
+   "viewer_id": "V-00281",
+   "plan_id": "P-V-00281-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0054",
+    "T0037",
+    "T0186",
+    "T0098",
+    "T0155"
+   ],
+   "ts": 1789114775.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-018192",
+   "decision_id": "D-018192",
+   "viewer_id": "V-00281",
+   "plan_id": "P-V-00281-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0054",
+    "T0037",
+    "T0186",
+    "T0098",
+    "T0155"
+   ],
+   "ts": 1789127935.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-00281-1"
+ ],
+ "learned": [
+  "G08 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

@@ -1,0 +1,114 @@
+{
+ "viewer_id": "V-01723",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0028509",
+   "age_s": 10801
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 219684
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "consent_event:E0028508",
+   "ref": null,
+   "age_s": 219684
+  },
+  "signup_ts": {
+   "value": 1786147200.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 2818884
+  },
+  "n_opens_7d": {
+   "value": 9,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 9,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-01723-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T12:01:25Z",
+   "kind": "decision",
+   "id": "D-007369",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T15:01:24Z",
+   "kind": "decision",
+   "id": "D-008537",
+   "action": "NO_ACTION",
+   "goal": "G02",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-16T18:01:24Z",
+   "kind": "outcome",
+   "plan": "P-V-01723-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-007369",
+   "decision_id": "D-007369",
+   "viewer_id": "V-01723",
+   "plan_id": "P-V-01723-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0751",
+    "T0424",
+    "T1290",
+    "T0980",
+    "T0326"
+   ],
+   "ts": 1788955285.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-01723-1"
+ ],
+ "learned": [
+  "G02 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

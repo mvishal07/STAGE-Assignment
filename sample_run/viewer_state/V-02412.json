@@ -1,0 +1,214 @@
+{
+ "viewer_id": "V-02412",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:E0039444",
+   "age_s": 3
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 301069
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 301069
+  },
+  "signup_ts": {
+   "value": 1786825804.0,
+   "source": "signup_event",
+   "ref": "E0039434",
+   "age_s": 2221665
+  },
+  "n_opens_7d": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02412-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T05:04:09Z",
+   "kind": "decision",
+   "id": "D-000465",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T08:04:08Z",
+   "kind": "decision",
+   "id": "D-000807",
+   "action": "PUSH",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T13:08:42Z",
+   "kind": "decision",
+   "id": "D-007712",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T16:17:52Z",
+   "kind": "decision",
+   "id": "D-009150",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T17:14:40Z",
+   "kind": "decision",
+   "id": "D-009744",
+   "action": "NO_ACTION",
+   "goal": "G02",
+   "reason": "all_candidates_failed_verification: duplicate_action"
+  },
+  {
+   "t": "2026-09-10T13:37:49Z",
+   "kind": "decision",
+   "id": "D-013700",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T10:59:03Z",
+   "kind": "outcome",
+   "plan": "P-V-02412-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-000465",
+   "decision_id": "D-000465",
+   "viewer_id": "V-02412",
+   "plan_id": "P-V-02412-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0747",
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133"
+   ],
+   "ts": 1788843849.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-000807",
+   "decision_id": "D-000807",
+   "viewer_id": "V-02412",
+   "plan_id": "P-V-02412-1",
+   "action": "PUSH",
+   "content": [
+    "T0747"
+   ],
+   "ts": 1788854648.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-007712",
+   "decision_id": "D-007712",
+   "viewer_id": "V-02412",
+   "plan_id": "P-V-02412-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0747",
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133"
+   ],
+   "ts": 1788959322.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-009150",
+   "decision_id": "D-009150",
+   "viewer_id": "V-02412",
+   "plan_id": "P-V-02412-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0747",
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133"
+   ],
+   "ts": 1788970672.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-013700",
+   "decision_id": "D-013700",
+   "viewer_id": "V-02412",
+   "plan_id": "P-V-02412-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0747",
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133"
+   ],
+   "ts": 1789047469.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02412-1"
+ ],
+ "learned": [
+  "G02 succeeded: success_signal_observed"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

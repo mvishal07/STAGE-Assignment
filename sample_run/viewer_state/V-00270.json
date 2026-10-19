@@ -1,0 +1,128 @@
+{
+ "viewer_id": "V-00270",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:E0004621",
+   "age_s": 10805
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 395409
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 395409
+  },
+  "signup_ts": {
+   "value": 1786579200.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 2562609
+  },
+  "n_opens_7d": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-00270-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-11T12:50:10Z",
+   "kind": "decision",
+   "id": "D-018421",
+   "action": "HOME_PAGE",
+   "goal": "G11",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T15:50:09Z",
+   "kind": "decision",
+   "id": "D-020088",
+   "action": "PUSH",
+   "goal": "G11",
+   "reason": null
+  },
+  {
+   "t": "2026-09-16T18:50:09Z",
+   "kind": "outcome",
+   "plan": "P-V-00270-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-018421",
+   "decision_id": "D-018421",
+   "viewer_id": "V-00270",
+   "plan_id": "P-V-00270-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1341",
+    "T0862",
+    "T0782",
+    "T0679",
+    "T0868"
+   ],
+   "ts": 1789131010.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-020088",
+   "decision_id": "D-020088",
+   "viewer_id": "V-00270",
+   "plan_id": "P-V-00270-1",
+   "action": "PUSH",
+   "content": [
+    "T1341"
+   ],
+   "ts": 1789141809.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-00270-1"
+ ],
+ "learned": [
+  "G11 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

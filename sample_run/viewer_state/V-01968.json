@@ -1,0 +1,214 @@
+{
+ "viewer_id": "V-01968",
+ "facts": {
+  "dialect": {
+   "value": "d5",
+   "source": "app_setting",
+   "ref": "event:E0032549",
+   "age_s": 8
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 382989
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 382989
+  },
+  "signup_ts": {
+   "value": 1781222400.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 7906989
+  },
+  "n_opens_7d": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-01968-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T11:21:28Z",
+   "kind": "decision",
+   "id": "D-001382",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T14:21:27Z",
+   "kind": "decision",
+   "id": "D-002482",
+   "action": "PUSH",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T14:24:46Z",
+   "kind": "decision",
+   "id": "D-008309",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T16:59:35Z",
+   "kind": "decision",
+   "id": "D-009552",
+   "action": "NO_ACTION",
+   "goal": "G06",
+   "reason": "all_candidates_failed_verification: duplicate_action"
+  },
+  {
+   "t": "2026-09-10T15:50:25Z",
+   "kind": "decision",
+   "id": "D-014575",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T12:23:09Z",
+   "kind": "decision",
+   "id": "D-018281",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-15T17:21:27Z",
+   "kind": "outcome",
+   "plan": "P-V-01968-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-001382",
+   "decision_id": "D-001382",
+   "viewer_id": "V-01968",
+   "plan_id": "P-V-01968-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0990",
+    "T1174",
+    "T0837",
+    "T0817",
+    "T1289"
+   ],
+   "ts": 1788866488.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-002482",
+   "decision_id": "D-002482",
+   "viewer_id": "V-01968",
+   "plan_id": "P-V-01968-1",
+   "action": "PUSH",
+   "content": [
+    "T1403"
+   ],
+   "ts": 1788877287.28,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-008309",
+   "decision_id": "D-008309",
+   "viewer_id": "V-01968",
+   "plan_id": "P-V-01968-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0990",
+    "T1174",
+    "T0837",
+    "T0817",
+    "T1289"
+   ],
+   "ts": 1788963886.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-014575",
+   "decision_id": "D-014575",
+   "viewer_id": "V-01968",
+   "plan_id": "P-V-01968-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0990",
+    "T0905",
+    "T1021",
+    "T1174",
+    "T0837"
+   ],
+   "ts": 1789055425.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-018281",
+   "decision_id": "D-018281",
+   "viewer_id": "V-01968",
+   "plan_id": "P-V-01968-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0990",
+    "T0905",
+    "T1021",
+    "T1174",
+    "T0837"
+   ],
+   "ts": 1789129389.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-01968-1"
+ ],
+ "learned": [
+  "G06 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

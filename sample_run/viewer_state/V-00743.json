@@ -1,0 +1,214 @@
+{
+ "viewer_id": "V-00743",
+ "facts": {
+  "dialect": {
+   "value": "d5",
+   "source": "app_setting",
+   "ref": "event:E0081549",
+   "age_s": 8
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 392408
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 392408
+  },
+  "signup_ts": {
+   "value": 1785456000.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 3682808
+  },
+  "n_opens_7d": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 10,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-00743-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T06:02:05Z",
+   "kind": "decision",
+   "id": "D-006413",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T09:02:04Z",
+   "kind": "decision",
+   "id": "D-006805",
+   "action": "PUSH",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T07:23:47Z",
+   "kind": "decision",
+   "id": "D-012395",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T11:07:14Z",
+   "kind": "decision",
+   "id": "D-012953",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T14:52:20Z",
+   "kind": "decision",
+   "id": "D-019217",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T15:00:08Z",
+   "kind": "decision",
+   "id": "D-019300",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: duplicate_action"
+  },
+  {
+   "t": "2026-09-14T12:02:04Z",
+   "kind": "outcome",
+   "plan": "P-V-00743-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-006413",
+   "decision_id": "D-006413",
+   "viewer_id": "V-00743",
+   "plan_id": "P-V-00743-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0252",
+    "T1014",
+    "T0261",
+    "T0837",
+    "T0817"
+   ],
+   "ts": 1788933725.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-006805",
+   "decision_id": "D-006805",
+   "viewer_id": "V-00743",
+   "plan_id": "P-V-00743-1",
+   "action": "PUSH",
+   "content": [
+    "T0252"
+   ],
+   "ts": 1788944524.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-012395",
+   "decision_id": "D-012395",
+   "viewer_id": "V-00743",
+   "plan_id": "P-V-00743-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0252",
+    "T1014",
+    "T0261",
+    "T0837",
+    "T0817"
+   ],
+   "ts": 1789025027.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-012953",
+   "decision_id": "D-012953",
+   "viewer_id": "V-00743",
+   "plan_id": "P-V-00743-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0252",
+    "T0905",
+    "T1014",
+    "T1021",
+    "T0261"
+   ],
+   "ts": 1789038434.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-019217",
+   "decision_id": "D-019217",
+   "viewer_id": "V-00743",
+   "plan_id": "P-V-00743-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0252",
+    "T0905",
+    "T1014",
+    "T1021",
+    "T0261"
+   ],
+   "ts": 1789138340.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-00743-1"
+ ],
+ "learned": [
+  "G04 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

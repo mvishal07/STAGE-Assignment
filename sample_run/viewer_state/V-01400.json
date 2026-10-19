@@ -1,0 +1,122 @@
+{
+ "viewer_id": "V-01400",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0023289",
+   "age_s": 121210
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 347705
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 347705
+  },
+  "signup_ts": {
+   "value": 1787971109.0,
+   "source": "signup_event",
+   "ref": "E0023281",
+   "age_s": 1122996
+  },
+  "n_opens_7d": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-01400-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T16:55:02Z",
+   "kind": "decision",
+   "id": "D-009503",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T19:55:01Z",
+   "kind": "decision",
+   "id": "D-010517",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-11T02:35:00Z"
+  },
+  {
+   "t": "2026-09-11T02:35:05Z",
+   "kind": "outcome",
+   "plan": "P-V-01400-1",
+   "status": "inconclusive",
+   "why": "abandoned:insufficient_engagement"
+  },
+  {
+   "t": "2026-09-11T02:35:05Z",
+   "kind": "decision",
+   "id": "D-016646",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "followup_without_active_plan"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-009503",
+   "decision_id": "D-009503",
+   "viewer_id": "V-01400",
+   "plan_id": "P-V-01400-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1276",
+    "T0439",
+    "T0049",
+    "T0326",
+    "T1155"
+   ],
+   "ts": 1788972902.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-01400-1"
+ ],
+ "learned": [
+  "G02 inconclusive: abandoned:insufficient_engagement"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

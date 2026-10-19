@@ -1,0 +1,154 @@
+{
+ "viewer_id": "V-00450",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:E0007614",
+   "age_s": 1
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 160743
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 160743
+  },
+  "signup_ts": {
+   "value": 1772236800.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 16670343
+  },
+  "n_opens_7d": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-00450-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T01:37:49Z",
+   "kind": "decision",
+   "id": "D-000167",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T04:37:48Z",
+   "kind": "decision",
+   "id": "D-000425",
+   "action": "WHATSAPP",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T22:39:03Z",
+   "kind": "decision",
+   "id": "D-005522",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T07:37:48Z",
+   "kind": "outcome",
+   "plan": "P-V-00450-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-000167",
+   "decision_id": "D-000167",
+   "viewer_id": "V-00450",
+   "plan_id": "P-V-00450-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0555",
+    "T0594",
+    "T0504",
+    "T0630",
+    "T0828"
+   ],
+   "ts": 1788831469.575,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  },
+  {
+   "action_id": "A-000425",
+   "decision_id": "D-000425",
+   "viewer_id": "V-00450",
+   "plan_id": "P-V-00450-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0555"
+   ],
+   "ts": 1788842268.175,
+   "is_message": true,
+   "suppressed": true,
+   "template": "wa_ta_v1"
+  },
+  {
+   "action_id": "A-005522",
+   "decision_id": "D-005522",
+   "viewer_id": "V-00450",
+   "plan_id": "P-V-00450-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0555",
+    "T0594",
+    "T0504",
+    "T0630",
+    "T0828"
+   ],
+   "ts": 1788907143.175,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-00450-1"
+ ],
+ "learned": [
+  "G08 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

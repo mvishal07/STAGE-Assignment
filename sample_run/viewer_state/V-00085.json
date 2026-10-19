@@ -1,0 +1,114 @@
+{
+ "viewer_id": "V-00085",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:S0002213",
+   "age_s": 10122
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 240826
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 240826
+  },
+  "signup_ts": {
+   "value": 1773792000.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 15195226
+  },
+  "n_opens_7d": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-00085-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T17:53:47Z",
+   "kind": "decision",
+   "id": "D-010045",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T20:53:46Z",
+   "kind": "outcome",
+   "plan": "P-V-00085-1",
+   "status": "inconclusive",
+   "why": "abandoned:not_low_watch_subscriber"
+  },
+  {
+   "t": "2026-09-09T20:53:46Z",
+   "kind": "decision",
+   "id": "D-010694",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "followup_without_active_plan"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-010045",
+   "decision_id": "D-010045",
+   "viewer_id": "V-00085",
+   "plan_id": "P-V-00085-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0691",
+    "T0450",
+    "T0823",
+    "T0955",
+    "T0899"
+   ],
+   "ts": 1788976427.575,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-00085-1"
+ ],
+ "learned": [
+  "G06 inconclusive: abandoned:not_low_watch_subscriber"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

@@ -1,0 +1,1 @@
+{"served_n": 1049, "served_success": 325, "unserved_n": 1351, "unserved_success": 284, "headline_uplift_pp": 10.0, "randomized_holdout": {"holdout_n": 277, "holdout_success": 59, "treated_n": 1079, "treated_success": 273}, "internal_report": "Served viewers converted at X% vs Y% for everyone else (uplift = served - unserved)."}

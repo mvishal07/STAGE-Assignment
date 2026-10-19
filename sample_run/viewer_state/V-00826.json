@@ -1,0 +1,22 @@
+{
+ "viewer_id": "V-00826",
+ "facts": {},
+ "active_plan": null,
+ "plans": [],
+ "history": [
+  {
+   "t": "2026-09-10T03:00:24Z",
+   "kind": "decision",
+   "id": "D-011959",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(98669s): recorded, never acted on"
+  }
+ ],
+ "actions": [],
+ "outcomes": [],
+ "learned": [],
+ "suppressed_goals": {},
+ "n_plans": 0,
+ "decision_ids": "see decisions.jsonl"
+}

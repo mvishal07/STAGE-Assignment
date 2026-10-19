@@ -1,0 +1,212 @@
+{
+ "viewer_id": "V-02085",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:E0034305",
+   "age_s": 2
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "purchase_event",
+   "ref": "event:S0001162",
+   "age_s": 296065
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "event:S0001162",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 296065
+  },
+  "signup_ts": {
+   "value": 1786895371.0,
+   "source": "signup_event",
+   "ref": "E0034283",
+   "age_s": 2147094
+  },
+  "n_opens_7d": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02085-1",
+  "P-V-02085-2"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T02:32:56Z",
+   "kind": "decision",
+   "id": "D-005729",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T05:32:55Z",
+   "kind": "decision",
+   "id": "D-006364",
+   "action": "WHATSAPP",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T15:10:43Z",
+   "kind": "outcome",
+   "plan": "P-V-02085-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  },
+  {
+   "t": "2026-09-10T03:51:40Z",
+   "kind": "decision",
+   "id": "D-012056",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T06:51:39Z",
+   "kind": "decision",
+   "id": "D-012328",
+   "action": "WHATSAPP",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T12:14:25Z",
+   "kind": "decision",
+   "id": "D-013227",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null
+  },
+  {
+   "t": "2026-09-17T09:51:39Z",
+   "kind": "outcome",
+   "plan": "P-V-02085-2",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-005729",
+   "decision_id": "D-005729",
+   "viewer_id": "V-02085",
+   "plan_id": "P-V-02085-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0652",
+    "T0121",
+    "T0110",
+    "T0745",
+    "T0102"
+   ],
+   "ts": 1788921176.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-006364",
+   "decision_id": "D-006364",
+   "viewer_id": "V-02085",
+   "plan_id": "P-V-02085-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0652"
+   ],
+   "ts": 1788931975.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_ta_v1"
+  },
+  {
+   "action_id": "A-012056",
+   "decision_id": "D-012056",
+   "viewer_id": "V-02085",
+   "plan_id": "P-V-02085-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0652",
+    "T0121",
+    "T0110",
+    "T0745",
+    "T0102"
+   ],
+   "ts": 1789012300.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-012328",
+   "decision_id": "D-012328",
+   "viewer_id": "V-02085",
+   "plan_id": "P-V-02085-2",
+   "action": "WHATSAPP",
+   "content": [
+    "T0652"
+   ],
+   "ts": 1789023099.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_ta_v1"
+  },
+  {
+   "action_id": "A-013227",
+   "decision_id": "D-013227",
+   "viewer_id": "V-02085",
+   "plan_id": "P-V-02085-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0652",
+    "T0121",
+    "T0110",
+    "T0745",
+    "T0102"
+   ],
+   "ts": 1789042465.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02085-1",
+  "O-P-V-02085-2"
+ ],
+ "learned": [
+  "G02 succeeded: success_signal_observed",
+  "G06 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 2,
+ "decision_ids": "see decisions.jsonl"
+}

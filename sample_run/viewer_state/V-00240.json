@@ -1,0 +1,114 @@
+{
+ "viewer_id": "V-00240",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:E0004109",
+   "age_s": 10801
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 215346
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 215346
+  },
+  "signup_ts": {
+   "value": 1775001600.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 13960146
+  },
+  "n_opens_7d": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-00240-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T10:49:07Z",
+   "kind": "decision",
+   "id": "D-007083",
+   "action": "HOME_PAGE",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T13:49:06Z",
+   "kind": "decision",
+   "id": "D-007977",
+   "action": "NO_ACTION",
+   "goal": "G03",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-11T16:49:06Z",
+   "kind": "outcome",
+   "plan": "P-V-00240-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-007083",
+   "decision_id": "D-007083",
+   "viewer_id": "V-00240",
+   "plan_id": "P-V-00240-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0691",
+    "T0883",
+    "T0708",
+    "T0506",
+    "T0463"
+   ],
+   "ts": 1788950947.575,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-00240-1"
+ ],
+ "learned": [
+  "G03 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

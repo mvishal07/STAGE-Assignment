@@ -1,0 +1,210 @@
+{
+ "viewer_id": "V-04672",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:E0081597",
+   "age_s": 6
+  },
+  "sub_status": {
+   "value": "unknown",
+   "source": "none",
+   "ref": null,
+   "age_s": null
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": null,
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "none(no_profile_row)",
+   "ref": null,
+   "age_s": null
+  },
+  "signup_ts": {
+   "value": 1788945144.0,
+   "source": "signup_event",
+   "ref": "E0076013",
+   "age_s": 193681
+  },
+  "n_opens_7d": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-04672-1",
+  "P-V-04672-2"
+ ],
+ "history": [
+  {
+   "t": "2026-09-09T09:37:05Z",
+   "kind": "decision",
+   "id": "D-006894",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T12:37:04Z",
+   "kind": "decision",
+   "id": "D-007527",
+   "action": "NO_ACTION",
+   "goal": "G01",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-09T14:09:21Z",
+   "kind": "decision",
+   "id": "D-008193",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T14:43:51Z",
+   "kind": "outcome",
+   "plan": "P-V-04672-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  },
+  {
+   "t": "2026-09-10T09:28:54Z",
+   "kind": "decision",
+   "id": "D-012687",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T12:28:53Z",
+   "kind": "decision",
+   "id": "D-013278",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-11T15:00:26Z",
+   "kind": "decision",
+   "id": "D-019398",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-15T15:28:53Z",
+   "kind": "outcome",
+   "plan": "P-V-04672-2",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-006894",
+   "decision_id": "D-006894",
+   "viewer_id": "V-04672",
+   "plan_id": "P-V-04672-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0679",
+    "T1341",
+    "T0747",
+    "T0620",
+    "T1090"
+   ],
+   "ts": 1788946625.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-008193",
+   "decision_id": "D-008193",
+   "viewer_id": "V-04672",
+   "plan_id": "P-V-04672-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0679",
+    "T1341",
+    "T0747",
+    "T0620",
+    "T1090"
+   ],
+   "ts": 1788962961.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-012687",
+   "decision_id": "D-012687",
+   "viewer_id": "V-04672",
+   "plan_id": "P-V-04672-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0867",
+    "T0620",
+    "T1090",
+    "T0679",
+    "T1223"
+   ],
+   "ts": 1789032534.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-019398",
+   "decision_id": "D-019398",
+   "viewer_id": "V-04672",
+   "plan_id": "P-V-04672-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0867",
+    "T0620",
+    "T1090",
+    "T0679",
+    "T1223"
+   ],
+   "ts": 1789138826.0,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-04672-1",
+  "O-P-V-04672-2"
+ ],
+ "learned": [
+  "G01 succeeded: success_signal_observed",
+  "G04 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 2,
+ "decision_ids": "see decisions.jsonl"
+}

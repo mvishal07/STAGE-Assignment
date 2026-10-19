@@ -1,0 +1,204 @@
+{
+ "viewer_id": "V-01838",
+ "facts": {
+  "dialect": {
+   "value": "d5",
+   "source": "app_setting",
+   "ref": "event:E0081520",
+   "age_s": 7
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 392407
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 392407
+  },
+  "signup_ts": {
+   "value": 1785369600.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 3769207
+  },
+  "n_opens_7d": {
+   "value": 9,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-01838-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T05:43:49Z",
+   "kind": "decision",
+   "id": "D-000536",
+   "action": "HOME_PAGE",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T08:43:48Z",
+   "kind": "decision",
+   "id": "D-000908",
+   "action": "PUSH",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T17:59:32Z",
+   "kind": "decision",
+   "id": "D-004562",
+   "action": "HOME_PAGE",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T17:42:09Z",
+   "kind": "decision",
+   "id": "D-009978",
+   "action": "HOME_PAGE",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T17:53:47Z",
+   "kind": "outcome",
+   "plan": "P-V-01838-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  },
+  {
+   "t": "2026-09-10T22:21:14Z",
+   "kind": "decision",
+   "id": "D-016255",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no_eligible_goal: G01=signup_older_than_14d; G04=no_open_series; G02=status_is_free; G11=not_single_title_trial"
+  },
+  {
+   "t": "2026-09-11T08:50:30Z",
+   "kind": "decision",
+   "id": "D-017683",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no_eligible_goal: G01=signup_older_than_14d; G04=no_open_series; G02=status_is_free; G11=not_single_title_trial"
+  },
+  {
+   "t": "2026-09-11T15:00:07Z",
+   "kind": "decision",
+   "id": "D-019288",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no_eligible_goal: G01=signup_older_than_14d; G04=no_open_series; G02=status_is_free; G11=not_single_title_trial"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-000536",
+   "decision_id": "D-000536",
+   "viewer_id": "V-01838",
+   "plan_id": "P-V-01838-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0990",
+    "T1014",
+    "T0261",
+    "T1174",
+    "T0837"
+   ],
+   "ts": 1788846229.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-000908",
+   "decision_id": "D-000908",
+   "viewer_id": "V-01838",
+   "plan_id": "P-V-01838-1",
+   "action": "PUSH",
+   "content": [
+    "T0990"
+   ],
+   "ts": 1788857028.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-004562",
+   "decision_id": "D-004562",
+   "viewer_id": "V-01838",
+   "plan_id": "P-V-01838-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0990",
+    "T1014",
+    "T0261",
+    "T1174",
+    "T0837"
+   ],
+   "ts": 1788890372.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-009978",
+   "decision_id": "D-009978",
+   "viewer_id": "V-01838",
+   "plan_id": "P-V-01838-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0990",
+    "T1014",
+    "T0261",
+    "T1174",
+    "T0837"
+   ],
+   "ts": 1788975729.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-01838-1"
+ ],
+ "learned": [
+  "G03 succeeded: success_signal_observed"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

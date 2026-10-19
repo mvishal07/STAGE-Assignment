@@ -1,0 +1,114 @@
+{
+ "viewer_id": "V-02724",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0044511",
+   "age_s": 10809
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 309591
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 309591
+  },
+  "signup_ts": {
+   "value": 1781913600.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 7142391
+  },
+  "n_opens_7d": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02724-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-10T12:59:52Z",
+   "kind": "decision",
+   "id": "D-013471",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T15:59:51Z",
+   "kind": "decision",
+   "id": "D-014647",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-15T18:59:51Z",
+   "kind": "outcome",
+   "plan": "P-V-02724-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-013471",
+   "decision_id": "D-013471",
+   "viewer_id": "V-02724",
+   "plan_id": "P-V-02724-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0797",
+    "T0751",
+    "T0424",
+    "T1290",
+    "T0980"
+   ],
+   "ts": 1789045192.575,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02724-1"
+ ],
+ "learned": [
+  "G04 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

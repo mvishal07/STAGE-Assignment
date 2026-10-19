@@ -1,0 +1,29 @@
+{
+ "violations": {},
+ "audited": 12021,
+ "counters": {
+  "device_clock_ahead": 190,
+  "verifier_blocked:duplicate_action": 1345,
+  "llm_ineligible_claim_rejected": 49,
+  "load_shed_mode": 357,
+  "llm_skipped_load_shed": 52,
+  "stale_trigger_no_action": 659,
+  "late_trigger_message_only": 164,
+  "verifier_blocked:quiet_hours": 71,
+  "duplicate_event_ignored": 439,
+  "duplicate_trigger_suppressed": 439,
+  "verifier_blocked:template": 164,
+  "verifier_blocked:frequency_cap": 101,
+  "dialect_three_way_conflict": 48,
+  "plan_revised_after_purchase": 123,
+  "late_event_rejudge": 57,
+  "followup_deferred_quiet_hours": 2543,
+  "llm_failure": 5,
+  "llm_skipped_breaker": 1,
+  "rule_update_plans_reevaluated": 937,
+  "rule_update_population_skipped": 3087,
+  "rule_update_outcomes_flipped": 70,
+  "store_unavailable_fail_closed": 21,
+  "judge_deferred_store_down": 6
+ }
+}

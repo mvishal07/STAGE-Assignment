@@ -1,0 +1,214 @@
+{
+ "viewer_id": "V-03275",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:E0053417",
+   "age_s": 1
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 388805
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 388805
+  },
+  "signup_ts": {
+   "value": 1772150400.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 16984805
+  },
+  "n_opens_7d": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-03275-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T21:00:03Z",
+   "kind": "decision",
+   "id": "D-005366",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T00:00:02Z",
+   "kind": "decision",
+   "id": "D-005583",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-10T02:35:00Z"
+  },
+  {
+   "t": "2026-09-09T13:58:11Z",
+   "kind": "decision",
+   "id": "D-008037",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T02:35:19Z",
+   "kind": "decision",
+   "id": "D-011547",
+   "action": "WHATSAPP",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T04:52:54Z",
+   "kind": "decision",
+   "id": "D-012144",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T14:00:05Z",
+   "kind": "decision",
+   "id": "D-018869",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-14T03:00:02Z",
+   "kind": "outcome",
+   "plan": "P-V-03275-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-005366",
+   "decision_id": "D-005366",
+   "viewer_id": "V-03275",
+   "plan_id": "P-V-03275-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0477",
+    "T1341",
+    "T0862",
+    "T0782",
+    "T0679"
+   ],
+   "ts": 1788901203.575,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  },
+  {
+   "action_id": "A-008037",
+   "decision_id": "D-008037",
+   "viewer_id": "V-03275",
+   "plan_id": "P-V-03275-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0477",
+    "T1341",
+    "T0747",
+    "T0862",
+    "T0782"
+   ],
+   "ts": 1788962291.175,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  },
+  {
+   "action_id": "A-011547",
+   "decision_id": "D-011547",
+   "viewer_id": "V-03275",
+   "plan_id": "P-V-03275-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0477"
+   ],
+   "ts": 1789007719.914993,
+   "is_message": true,
+   "suppressed": true,
+   "template": "wa_te_v1"
+  },
+  {
+   "action_id": "A-012144",
+   "decision_id": "D-012144",
+   "viewer_id": "V-03275",
+   "plan_id": "P-V-03275-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0477",
+    "T1341",
+    "T0747",
+    "T0862",
+    "T0782"
+   ],
+   "ts": 1789015974.175,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  },
+  {
+   "action_id": "A-018869",
+   "decision_id": "D-018869",
+   "viewer_id": "V-03275",
+   "plan_id": "P-V-03275-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0477",
+    "T1341",
+    "T0747",
+    "T0862",
+    "T0782"
+   ],
+   "ts": 1789135205.175,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-03275-1"
+ ],
+ "learned": [
+  "G04 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

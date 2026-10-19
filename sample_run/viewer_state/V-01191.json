@@ -1,0 +1,30 @@
+{
+ "viewer_id": "V-01191",
+ "facts": {},
+ "active_plan": null,
+ "plans": [],
+ "history": [
+  {
+   "t": "2026-09-08T16:55:51Z",
+   "kind": "decision",
+   "id": "D-003928",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(21602s): recorded, never acted on"
+  },
+  {
+   "t": "2026-09-08T22:52:49Z",
+   "kind": "decision",
+   "id": "D-005539",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(32601s): recorded, never acted on"
+  }
+ ],
+ "actions": [],
+ "outcomes": [],
+ "learned": [],
+ "suppressed_goals": {},
+ "n_plans": 0,
+ "decision_ids": "see decisions.jsonl"
+}

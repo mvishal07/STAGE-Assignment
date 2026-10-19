@@ -1,0 +1,192 @@
+{
+ "viewer_id": "V-01169",
+ "facts": {
+  "dialect": {
+   "value": "d5",
+   "source": "app_setting",
+   "ref": "event:E0019466",
+   "age_s": 9
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 384929
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 384929
+  },
+  "signup_ts": {
+   "value": 1787708797.0,
+   "source": "signup_event",
+   "ref": "E0019458",
+   "age_s": 1422532
+  },
+  "n_opens_7d": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-01169-1",
+  "P-V-01169-2"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T12:53:46Z",
+   "kind": "decision",
+   "id": "D-001836",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T15:53:45Z",
+   "kind": "decision",
+   "id": "D-003244",
+   "action": "NO_ACTION",
+   "goal": "G01",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-09T16:59:41Z",
+   "kind": "outcome",
+   "plan": "P-V-01169-1",
+   "status": "inconclusive",
+   "why": "abandoned:signup_older_than_14d"
+  },
+  {
+   "t": "2026-09-09T16:59:42Z",
+   "kind": "decision",
+   "id": "D-009555",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T19:59:41Z",
+   "kind": "decision",
+   "id": "D-010535",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-11T02:35:00Z"
+  },
+  {
+   "t": "2026-09-11T02:35:06Z",
+   "kind": "decision",
+   "id": "D-016661",
+   "action": "NO_ACTION",
+   "goal": "G02",
+   "reason": "no_consented_channel_for_message(or three_way_dialect_conflict)"
+  },
+  {
+   "t": "2026-09-11T12:55:29Z",
+   "kind": "decision",
+   "id": "D-018458",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-16T22:59:41Z",
+   "kind": "outcome",
+   "plan": "P-V-01169-2",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-001836",
+   "decision_id": "D-001836",
+   "viewer_id": "V-01169",
+   "plan_id": "P-V-01169-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0837",
+    "T0817",
+    "T1008",
+    "T1366",
+    "T0863"
+   ],
+   "ts": 1788872026.575,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  },
+  {
+   "action_id": "A-009555",
+   "decision_id": "D-009555",
+   "viewer_id": "V-01169",
+   "plan_id": "P-V-01169-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0837",
+    "T0817",
+    "T1289",
+    "T1008",
+    "T0252"
+   ],
+   "ts": 1788973182.575,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  },
+  {
+   "action_id": "A-018458",
+   "decision_id": "D-018458",
+   "viewer_id": "V-01169",
+   "plan_id": "P-V-01169-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0837",
+    "T0817",
+    "T1289",
+    "T1008",
+    "T0252"
+   ],
+   "ts": 1789131329.175,
+   "is_message": false,
+   "suppressed": true,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-01169-1",
+  "O-P-V-01169-2"
+ ],
+ "learned": [
+  "G01 inconclusive: abandoned:signup_older_than_14d",
+  "G02 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 2,
+ "decision_ids": "see decisions.jsonl"
+}

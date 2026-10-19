@@ -1,0 +1,130 @@
+{
+ "viewer_id": "V-02240",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:E0081642",
+   "age_s": 41705
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 434111
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 434111
+  },
+  "signup_ts": {
+   "value": 1777420800.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 11759711
+  },
+  "n_opens_7d": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 8,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02240-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-11T13:41:30Z",
+   "kind": "decision",
+   "id": "D-018736",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T15:00:14Z",
+   "kind": "decision",
+   "id": "D-019341",
+   "action": "NO_ACTION",
+   "goal": "G04",
+   "reason": "all_candidates_failed_verification: duplicate_action"
+  },
+  {
+   "t": "2026-09-11T16:41:29Z",
+   "kind": "decision",
+   "id": "D-020504",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-12T02:35:00Z"
+  },
+  {
+   "t": "2026-09-12T02:35:11Z",
+   "kind": "outcome",
+   "plan": "P-V-02240-1",
+   "status": "inconclusive",
+   "why": "abandoned:no_open_series"
+  },
+  {
+   "t": "2026-09-12T02:35:11Z",
+   "kind": "decision",
+   "id": "D-022082",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "followup_without_active_plan"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-018736",
+   "decision_id": "D-018736",
+   "viewer_id": "V-02240",
+   "plan_id": "P-V-02240-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1164",
+    "T0652",
+    "T0555",
+    "T0110",
+    "T0528"
+   ],
+   "ts": 1789134090.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02240-1"
+ ],
+ "learned": [
+  "G04 inconclusive: abandoned:no_open_series"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

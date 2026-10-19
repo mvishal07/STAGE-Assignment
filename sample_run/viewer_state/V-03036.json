@@ -1,0 +1,212 @@
+{
+ "viewer_id": "V-03036",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0049419",
+   "age_s": 10809
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 189232
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 189232
+  },
+  "signup_ts": {
+   "value": 1788233843.0,
+   "source": "signup_event",
+   "ref": "E0049413",
+   "age_s": 701789
+  },
+  "n_opens_7d": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-03036-1",
+  "P-V-03036-2"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T12:41:51Z",
+   "kind": "decision",
+   "id": "D-001762",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T15:41:50Z",
+   "kind": "decision",
+   "id": "D-003117",
+   "action": "WHATSAPP",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T16:31:12Z",
+   "kind": "decision",
+   "id": "D-003648",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T16:44:57Z",
+   "kind": "outcome",
+   "plan": "P-V-03036-1",
+   "status": "succeeded",
+   "why": "success_signal_observed"
+  },
+  {
+   "t": "2026-09-09T03:33:53Z",
+   "kind": "decision",
+   "id": "D-006176",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T06:33:52Z",
+   "kind": "decision",
+   "id": "D-006473",
+   "action": "WHATSAPP",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-16T09:33:52Z",
+   "kind": "outcome",
+   "plan": "P-V-03036-2",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-001762",
+   "decision_id": "D-001762",
+   "viewer_id": "V-03036",
+   "plan_id": "P-V-03036-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0326",
+    "T0437",
+    "T0816",
+    "T0346",
+    "T0087"
+   ],
+   "ts": 1788871311.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-003117",
+   "decision_id": "D-003117",
+   "viewer_id": "V-03036",
+   "plan_id": "P-V-03036-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0326"
+   ],
+   "ts": 1788882110.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_hi_v2"
+  },
+  {
+   "action_id": "A-003648",
+   "decision_id": "D-003648",
+   "viewer_id": "V-03036",
+   "plan_id": "P-V-03036-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0326",
+    "T0437",
+    "T0816",
+    "T0346",
+    "T0087"
+   ],
+   "ts": 1788885072.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-006176",
+   "decision_id": "D-006176",
+   "viewer_id": "V-03036",
+   "plan_id": "P-V-03036-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1121",
+    "T0008",
+    "T1348",
+    "T0857",
+    "T1053"
+   ],
+   "ts": 1788924833.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-006473",
+   "decision_id": "D-006473",
+   "viewer_id": "V-03036",
+   "plan_id": "P-V-03036-2",
+   "action": "WHATSAPP",
+   "content": [
+    "T1121"
+   ],
+   "ts": 1788935632.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_hi_v2"
+  }
+ ],
+ "outcomes": [
+  "O-P-V-03036-1",
+  "O-P-V-03036-2"
+ ],
+ "learned": [
+  "G01 succeeded: success_signal_observed",
+  "G02 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 2,
+ "decision_ids": "see decisions.jsonl"
+}

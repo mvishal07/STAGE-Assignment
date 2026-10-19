@@ -1,0 +1,204 @@
+{
+ "viewer_id": "V-02979",
+ "facts": {
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "ref": "event:E0081599",
+   "age_s": 41685
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 434118
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 434118
+  },
+  "signup_ts": {
+   "value": 1773360000.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 15820518
+  },
+  "n_opens_7d": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 1,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 0,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02979-1",
+  "P-V-02979-2"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T13:18:02Z",
+   "kind": "decision",
+   "id": "D-002008",
+   "action": "HOME_PAGE",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T16:18:01Z",
+   "kind": "decision",
+   "id": "D-003502",
+   "action": "WHATSAPP",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T19:18:01Z",
+   "kind": "outcome",
+   "plan": "P-V-02979-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  },
+  {
+   "t": "2026-09-11T04:50:46Z",
+   "kind": "decision",
+   "id": "D-017232",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(32403s): recorded, never acted on"
+  },
+  {
+   "t": "2026-09-11T15:00:49Z",
+   "kind": "decision",
+   "id": "D-019551",
+   "action": "HOME_PAGE",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T18:00:47Z",
+   "kind": "decision",
+   "id": "D-021192",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "deferred_quiet_hours -> 2026-09-12T02:35:00Z"
+  },
+  {
+   "t": "2026-09-12T02:35:18Z",
+   "kind": "decision",
+   "id": "D-022268",
+   "action": "WHATSAPP",
+   "goal": "G03",
+   "reason": null
+  },
+  {
+   "t": "2026-09-13T21:00:47Z",
+   "kind": "outcome",
+   "plan": "P-V-02979-2",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-002008",
+   "decision_id": "D-002008",
+   "viewer_id": "V-02979",
+   "plan_id": "P-V-02979-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0368",
+    "T1168",
+    "T0504",
+    "T0630",
+    "T0828"
+   ],
+   "ts": 1788873482.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-003502",
+   "decision_id": "D-003502",
+   "viewer_id": "V-02979",
+   "plan_id": "P-V-02979-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0368"
+   ],
+   "ts": 1788884281.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_ta_v1"
+  },
+  {
+   "action_id": "A-019551",
+   "decision_id": "D-019551",
+   "viewer_id": "V-02979",
+   "plan_id": "P-V-02979-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0368",
+    "T1168",
+    "T0504",
+    "T0630",
+    "T0828"
+   ],
+   "ts": 1789138849.3649983,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-022268",
+   "decision_id": "D-022268",
+   "viewer_id": "V-02979",
+   "plan_id": "P-V-02979-2",
+   "action": "WHATSAPP",
+   "content": [
+    "T0368"
+   ],
+   "ts": 1789180518.8649938,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_ta_v1"
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02979-1",
+  "O-P-V-02979-2"
+ ],
+ "learned": [
+  "G03 failed: no_success_signal_before_deadline",
+  "G03 failed twice with real exposure; pause this goal 7d (abstain rather than nag)"
+ ],
+ "suppressed_goals": {
+  "G03": 1789938047.7899983
+ },
+ "n_plans": 2,
+ "decision_ids": "see decisions.jsonl"
+}

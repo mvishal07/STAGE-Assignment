@@ -1,0 +1,214 @@
+{
+ "viewer_id": "V-04106",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:E0081486",
+   "age_s": 8
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 392439
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 392439
+  },
+  "signup_ts": {
+   "value": 1785888000.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 3250839
+  },
+  "n_opens_7d": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 2,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-04106-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T07:52:16Z",
+   "kind": "decision",
+   "id": "D-000784",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(25207s): recorded, never acted on"
+  },
+  {
+   "t": "2026-09-08T12:55:41Z",
+   "kind": "decision",
+   "id": "D-001841",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T15:55:40Z",
+   "kind": "decision",
+   "id": "D-003256",
+   "action": "PUSH",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-09T07:34:03Z",
+   "kind": "decision",
+   "id": "D-006609",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T06:45:19Z",
+   "kind": "decision",
+   "id": "D-017431",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T15:00:39Z",
+   "kind": "decision",
+   "id": "D-019504",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-15T18:55:40Z",
+   "kind": "outcome",
+   "plan": "P-V-04106-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-001841",
+   "decision_id": "D-001841",
+   "viewer_id": "V-04106",
+   "plan_id": "P-V-04106-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0747",
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133"
+   ],
+   "ts": 1788872141.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-003256",
+   "decision_id": "D-003256",
+   "viewer_id": "V-04106",
+   "plan_id": "P-V-04106-1",
+   "action": "PUSH",
+   "content": [
+    "T0747"
+   ],
+   "ts": 1788882940.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-006609",
+   "decision_id": "D-006609",
+   "viewer_id": "V-04106",
+   "plan_id": "P-V-04106-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0747",
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133"
+   ],
+   "ts": 1788939243.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-017431",
+   "decision_id": "D-017431",
+   "viewer_id": "V-04106",
+   "plan_id": "P-V-04106-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133",
+    "T0410"
+   ],
+   "ts": 1789109119.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-019504",
+   "decision_id": "D-019504",
+   "viewer_id": "V-04106",
+   "plan_id": "P-V-04106-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1046",
+    "T0679",
+    "T1193",
+    "T1133",
+    "T0410"
+   ],
+   "ts": 1789138839.3199983,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-04106-1"
+ ],
+ "learned": [
+  "G02 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

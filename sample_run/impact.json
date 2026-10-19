@@ -1,0 +1,141 @@
+{
+ "itt": {
+  "n_treated": 3665,
+  "n_holdout": 670,
+  "p_treated": 0.39972714870395637,
+  "p_holdout": 0.27313432835820894,
+  "diff": 0.12659282034574743,
+  "se": 0.01902066691453292,
+  "ci_lo": 0.08931231319326291,
+  "ci_hi": 0.16387332749823194,
+  "p_value": 2.8226088133465055e-11
+ },
+ "naive": {
+  "n_served": 3665,
+  "n_other": 1038,
+  "p_served": 0.39972714870395637,
+  "p_other": 0.279383429672447,
+  "diff": 0.12034371903150937
+ },
+ "balance_prior_completed_plays": {
+  "treated": 1.2480218281036835,
+  "holdout": 1.282089552238806,
+  "never_acted_on": 1.872282608695652
+ },
+ "per_goal": {
+  "G01": {
+   "treated": [
+    988,
+    336
+   ],
+   "holdout": [
+    197,
+    43
+   ],
+   "inconclusive": 74
+  },
+  "G04": {
+   "treated": [
+    806,
+    185
+   ],
+   "holdout": [
+    173,
+    0
+   ],
+   "inconclusive": 263
+  },
+  "G03": {
+   "treated": [
+    1049,
+    482
+   ],
+   "holdout": [
+    193,
+    72
+   ],
+   "inconclusive": 27
+  },
+  "G12": {
+   "treated": [
+    45,
+    23
+   ],
+   "holdout": [
+    14,
+    7
+   ],
+   "inconclusive": 0
+  },
+  "G02": {
+   "treated": [
+    698,
+    85
+   ],
+   "holdout": [
+    94,
+    5
+   ],
+   "inconclusive": 30
+  },
+  "G11": {
+   "treated": [
+    84,
+    35
+   ],
+   "holdout": [
+    16,
+    3
+   ],
+   "inconclusive": 0
+  },
+  "G06": {
+   "treated": [
+    223,
+    43
+   ],
+   "holdout": [
+    31,
+    2
+   ],
+   "inconclusive": 28
+  },
+  "G08": {
+   "treated": [
+    302,
+    8
+   ],
+   "holdout": [
+    34,
+    0
+   ],
+   "inconclusive": 36
+  },
+  "G05": {
+   "treated": [
+    191,
+    17
+   ],
+   "holdout": [
+    25,
+    1
+   ],
+   "inconclusive": 0
+  }
+ },
+ "inconclusive_total": 458,
+ "pilot": {
+  "served_n": 1049,
+  "served_success": 325,
+  "unserved_n": 1351,
+  "unserved_success": 284,
+  "headline_uplift_pp": 10.0,
+  "randomized_holdout": {
+   "holdout_n": 277,
+   "holdout_success": 59,
+   "treated_n": 1079,
+   "treated_success": 273
+  },
+  "internal_report": "Served viewers converted at X% vs Y% for everyone else (uplift = served - unserved)."
+ }
+}

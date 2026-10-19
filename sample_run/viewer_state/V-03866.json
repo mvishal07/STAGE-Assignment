@@ -1,0 +1,122 @@
+{
+ "viewer_id": "V-03866",
+ "facts": {
+  "dialect": {
+   "value": "d4",
+   "source": "app_setting",
+   "ref": "event:S0002928",
+   "age_s": 8816
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 310724
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": false
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 310724
+  },
+  "signup_ts": {
+   "value": 1781740800.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 7316324
+  },
+  "n_opens_7d": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 14,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-03866-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-10T13:18:45Z",
+   "kind": "decision",
+   "id": "D-013583",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T16:18:44Z",
+   "kind": "outcome",
+   "plan": "P-V-03866-1",
+   "status": "inconclusive",
+   "why": "abandoned:no_open_series"
+  },
+  {
+   "t": "2026-09-10T16:18:44Z",
+   "kind": "decision",
+   "id": "D-014807",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "followup_without_active_plan"
+  },
+  {
+   "t": "2026-09-12T21:26:22Z",
+   "kind": "decision",
+   "id": "D-022478",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale_trigger(100173s): recorded, never acted on"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-013583",
+   "decision_id": "D-013583",
+   "viewer_id": "V-03866",
+   "plan_id": "P-V-03866-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0605",
+    "T0715",
+    "T0796",
+    "T0427",
+    "T0591"
+   ],
+   "ts": 1789046325.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-03866-1"
+ ],
+ "learned": [
+  "G04 inconclusive: abandoned:no_open_series"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

@@ -1,0 +1,128 @@
+{
+ "viewer_id": "V-04716",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:S0000084",
+   "age_s": 10658
+  },
+  "sub_status": {
+   "value": "subscriber",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 105683
+  },
+  "ever_paid": {
+   "value": true,
+   "source": "purchase_event",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": true,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 105683
+  },
+  "signup_ts": {
+   "value": 1779926400.0,
+   "source": "profile",
+   "ref": null,
+   "age_s": 8925683
+  },
+  "n_opens_7d": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 6,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-04716-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T04:21:24Z",
+   "kind": "decision",
+   "id": "D-000405",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T07:21:23Z",
+   "kind": "decision",
+   "id": "D-000718",
+   "action": "WHATSAPP",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-13T10:21:23Z",
+   "kind": "outcome",
+   "plan": "P-V-04716-1",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-000405",
+   "decision_id": "D-000405",
+   "viewer_id": "V-04716",
+   "plan_id": "P-V-04716-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0381",
+    "T0155",
+    "T0125",
+    "T1276",
+    "T0439"
+   ],
+   "ts": 1788841284.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-000718",
+   "decision_id": "D-000718",
+   "viewer_id": "V-04716",
+   "plan_id": "P-V-04716-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0381"
+   ],
+   "ts": 1788852083.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_hi_v2"
+  }
+ ],
+ "outcomes": [
+  "O-P-V-04716-1"
+ ],
+ "learned": [
+  "G04 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}

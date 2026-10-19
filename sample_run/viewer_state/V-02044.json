@@ -1,0 +1,212 @@
+{
+ "viewer_id": "V-02044",
+ "facts": {
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "ref": "event:E0033640",
+   "age_s": 2
+  },
+  "sub_status": {
+   "value": "trial",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 294942
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 294942
+  },
+  "signup_ts": {
+   "value": 1787079675.0,
+   "source": "signup_event",
+   "ref": "E0033615",
+   "age_s": 1961667
+  },
+  "n_opens_7d": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 7,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02044-1",
+  "P-V-02044-2"
+ ],
+ "history": [
+  {
+   "t": "2026-09-08T11:57:07Z",
+   "kind": "decision",
+   "id": "D-001529",
+   "action": "HOME_PAGE",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-08T14:57:06Z",
+   "kind": "decision",
+   "id": "D-002744",
+   "action": "WHATSAPP",
+   "goal": "G04",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T07:17:17Z",
+   "kind": "outcome",
+   "plan": "P-V-02044-1",
+   "status": "inconclusive",
+   "why": "abandoned:no_open_series"
+  },
+  {
+   "t": "2026-09-10T07:17:18Z",
+   "kind": "decision",
+   "id": "D-012385",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T10:17:17Z",
+   "kind": "decision",
+   "id": "D-012788",
+   "action": "WHATSAPP",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-10T11:55:42Z",
+   "kind": "decision",
+   "id": "D-013163",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null
+  },
+  {
+   "t": "2026-09-17T13:17:17Z",
+   "kind": "outcome",
+   "plan": "P-V-02044-2",
+   "status": "failed",
+   "why": "no_success_signal_before_deadline"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-001529",
+   "decision_id": "D-001529",
+   "viewer_id": "V-02044",
+   "plan_id": "P-V-02044-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0296",
+    "T0751",
+    "T0424",
+    "T1290",
+    "T0980"
+   ],
+   "ts": 1788868627.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-002744",
+   "decision_id": "D-002744",
+   "viewer_id": "V-02044",
+   "plan_id": "P-V-02044-1",
+   "action": "WHATSAPP",
+   "content": [
+    "T0296"
+   ],
+   "ts": 1788879426.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_hi_v2"
+  },
+  {
+   "action_id": "A-012385",
+   "decision_id": "D-012385",
+   "viewer_id": "V-02044",
+   "plan_id": "P-V-02044-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0751",
+    "T0424",
+    "T1290",
+    "T0980",
+    "T0326"
+   ],
+   "ts": 1789024638.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  },
+  {
+   "action_id": "A-012788",
+   "decision_id": "D-012788",
+   "viewer_id": "V-02044",
+   "plan_id": "P-V-02044-2",
+   "action": "WHATSAPP",
+   "content": [
+    "T0751"
+   ],
+   "ts": 1789035437.175,
+   "is_message": true,
+   "suppressed": false,
+   "template": "wa_hi_v2"
+  },
+  {
+   "action_id": "A-013163",
+   "decision_id": "D-013163",
+   "viewer_id": "V-02044",
+   "plan_id": "P-V-02044-2",
+   "action": "HOME_PAGE",
+   "content": [
+    "T0751",
+    "T0424",
+    "T1290",
+    "T0980",
+    "T0326"
+   ],
+   "ts": 1789041342.175,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02044-1",
+  "O-P-V-02044-2"
+ ],
+ "learned": [
+  "G04 inconclusive: abandoned:no_open_series",
+  "G02 failed: no_success_signal_before_deadline"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 2,
+ "decision_ids": "see decisions.jsonl"
+}

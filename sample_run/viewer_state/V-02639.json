@@ -1,0 +1,122 @@
+{
+ "viewer_id": "V-02639",
+ "facts": {
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "ref": "event:S0004348",
+   "age_s": 1373
+  },
+  "sub_status": {
+   "value": "free",
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": 395083
+  },
+  "ever_paid": {
+   "value": false,
+   "source": "profile",
+   "ref": "profile@2026-09-07T02:00:00Z",
+   "age_s": null
+  },
+  "consent": {
+   "value": {
+    "push": false,
+    "whatsapp": true
+   },
+   "source": "profile",
+   "ref": null,
+   "age_s": 395083
+  },
+  "signup_ts": {
+   "value": 1787976539.0,
+   "source": "signup_event",
+   "ref": "E0043201",
+   "age_s": 1164944
+  },
+  "n_opens_7d": {
+   "value": 4,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_plays": {
+   "value": 5,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  },
+  "n_completed": {
+   "value": 3,
+   "source": "events",
+   "ref": null,
+   "age_s": null
+  }
+ },
+ "active_plan": null,
+ "plans": [
+  "P-V-02639-1"
+ ],
+ "history": [
+  {
+   "t": "2026-09-11T12:44:44Z",
+   "kind": "decision",
+   "id": "D-018374",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null
+  },
+  {
+   "t": "2026-09-11T15:04:39Z",
+   "kind": "decision",
+   "id": "D-019766",
+   "action": "NO_ACTION",
+   "goal": "G08",
+   "reason": "all_candidates_failed_verification: duplicate_action"
+  },
+  {
+   "t": "2026-09-11T15:44:43Z",
+   "kind": "outcome",
+   "plan": "P-V-02639-1",
+   "status": "inconclusive",
+   "why": "abandoned:no_micro_affinity"
+  },
+  {
+   "t": "2026-09-11T15:44:43Z",
+   "kind": "decision",
+   "id": "D-020042",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "followup_without_active_plan"
+  }
+ ],
+ "actions": [
+  {
+   "action_id": "A-018374",
+   "decision_id": "D-018374",
+   "viewer_id": "V-02639",
+   "plan_id": "P-V-02639-1",
+   "action": "HOME_PAGE",
+   "content": [
+    "T1090",
+    "T0679",
+    "T1223",
+    "T0355",
+    "T0901"
+   ],
+   "ts": 1789130684.575,
+   "is_message": false,
+   "suppressed": false,
+   "template": null
+  }
+ ],
+ "outcomes": [
+  "O-P-V-02639-1"
+ ],
+ "learned": [
+  "G08 inconclusive: abandoned:no_micro_affinity"
+ ],
+ "suppressed_goals": {},
+ "n_plans": 1,
+ "decision_ids": "see decisions.jsonl"
+}
